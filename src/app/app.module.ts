@@ -12,7 +12,7 @@ import { Service1Component } from './service1/service1.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

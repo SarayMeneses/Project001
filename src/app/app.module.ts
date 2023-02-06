@@ -16,6 +16,7 @@ import { HeaderComponent } from './header/header.component';
 import {MatChipsModule} from '@angular/material/chips';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatCardModule } from '@angular/material/card';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 
 
@@ -41,6 +42,7 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
    MatCheckboxModule,
    MatCardModule,
+   MatDatepickerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

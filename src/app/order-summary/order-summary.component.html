@@ -1,1 +1,147 @@
-<p>order-summary works!</p>
+<div class="container-fluid"
+    style="display: flex;    flex-direction: column;;align-items: c;margin-top: 20px;width: 40%;height: 10px;  margin-left: 293px;">
+
+    <div class="content" style="border-radius: 28px;; background-color: whitesmoke; border-color: black; ">
+        <div class="header" style="background-color:#fcc729;height: 70px;border-radius: 13px">
+            <h1 class="title fs-5" id="staticBackdropLabel"><strong style="font-size: 40px;">Order
+                    Summary</strong></h1>
+
+        </div>
+        
+        <div class="body" style="    border-color: black;
+        display: flex;
+        flex-direction: row;
+        gap: 45px;margin: 35px;">
+
+
+            <div class="column1">
+                <!-- //paginator -->
+                <h5>Monthly Charges</h5>
+
+                <div style="width: 321px;height: 1px;background-color: black;"></div>
+                <p>Service Plan:</p>
+
+                <div style="width: 321px;height: 1px;background-color: black;"></div>
+                
+                    <div style="display: flex;justify-content: space-between;">
+                    <p>Promotions</p>
+                    <p>$0.00</p>
+                    </div>
+
+                <div style="width: 321px;height: 1px;background-color: black;"></div>
+
+                <div style="display: flex;flex-direction: column;">
+                    <div style="display: flex;justify-content: space-between;">
+                    <p>Monthly Fees</p>
+                    <p style="color: blueviolet;">$0.00</p>
+                    </div>
+                    <div style="display: flex;justify-content: space-between;">
+                    <h5>Monthly Plan Total:</h5>
+                    <h5 >$57.00</h5>
+                    </div>
+                    <div style="display: flex;justify-content: flex-end">
+                        <p>+ Taxes</p>
+                    </div>
+                    <div style="width: 321px;height: 1px;background-color: black;"></div>
+
+                  </div>
+
+
+            </div>
+            <div class="column2">
+                <!-- //paginator -->
+                <h5>First Bill </h5>
+
+                <div style="width: 321px;height: 1px;background-color: black;"></div>
+
+                <div style="display: flex;justify-content: space-between;">
+                <p>Monthly Plan</p>
+                <p style="color: blueviolet;">$57.00</p>
+                </div>
+                <div style="width: 321px;height: 1px;background-color: black;"></div>
+
+                <div style="display: flex;flex-direction: column;">
+                    <div style="display: flex;justify-content: space-between;">
+                    <p>One-Time Fees</p>
+                    <p style="color: blueviolet;">$0.00</p>
+                    </div>
+                    <p>One-Time Charges</p>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p>Tech Installation</p>
+                        <p>$99.00</p>
+                        </div>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p>Already Have A Modem</p>
+                        <p>$0.00</p>
+                        </div>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p>Shipping Fee</p>
+                        <p>$0.00</p>
+                        </div>
+                    
+                    <div style="display: flex;justify-content: space-between;">
+                        <p>Upon Activation</p>
+                        <p>$0.00</p>
+                        </div>
+                        <div style="display: flex;justify-content: space-between;">
+                            <h5>First Bill Total:</h5>
+                            <h5 >$156.00</h5>
+                            </div>
+                    
+                    
+                    <div style="display: flex;justify-content: flex-end">
+                        <p>+ Taxes</p>
+                    </div>
+                    <div style="width: 321px;height: 1px;background-color: black;"></div>
+
+                  </div>
+
+
+            </div>
+            
+
+ 
+        </div>
+        <div style="width: 98%;height: 10px;background-color: #dddddd;margin: 10px;"></div>
+        <h5>SMS Capable</h5>
+        <p>Is the phone number you have provided capable of receiving SMS text messages?</p>
+       
+        <section class="example-section" >SMS Capable:
+            <mat-checkbox class="example-margin"></mat-checkbox>
+          </section>
+          <h5>Contact Permission</h5>
+          <p>If you would like to receive billing, order, and repair notifications from BrightSpeed, please select from the following options:</p>
+          <section class="example-section" >Permission to SMS: 
+            <span id="passwordHelpInline" class="form-text" style="color: red;">
+                Highly Recommended
+            </span>
+            <mat-checkbox class="example-margin"></mat-checkbox>
+          </section>
+          <h5>Bill Language & Moving Option</h5>
+          <p>Do you want a Spanish Bill?:</p>
+
+          <div class="col-md-4">
+            
+            <select id="inputState" class="form-select" style="border-radius: 25px;">
+              <option selected>No</option>
+              <option>...</option>
+            </select>  </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h5>Order Remarks </h5>
+            <p>Please write any comments or information necessary for your technician to complete your installation. Examples include:  Dogs in yard, locked gate, etc...</p>
+                
+                
+                  
+                  <div class="mb-3">
+                   
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="border-radius: 25px;"></textarea>
+                  </div> 
+                  <p>200 remaing</p>
+                  <h5>Shipping Address</h5>
+                  <section class="example-section" >
+                    <mat-checkbox class="example-margin">Keep checked if Delivery Address is same as Service Address.</mat-checkbox>
+                  </section>
+       </div>

@@ -15,6 +15,7 @@ import { TermsAndConditionComponent } from './terms-and-condition/terms-and-cond
 import { HeaderComponent } from './header/header.component';
 import {MatChipsModule} from '@angular/material/chips';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatCardModule } from '@angular/material/card';
 
 
 
@@ -39,6 +40,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     MatChipsModule,
     MatIconModule,
    MatCheckboxModule,
+   MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

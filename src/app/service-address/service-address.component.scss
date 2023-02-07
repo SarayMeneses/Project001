@@ -1,0 +1,96 @@
+//@import "stylings/variables";
+*{
+    font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif !important;
+    line-height: 1.5
+}
+section{
+    margin-top: 80px !important;
+    .main-content{
+        background-color: #ececec !important;
+        border-radius: 27px;
+        box-shadow: 3px 5px 10px #d5d5d5 !important;
+        margin: 0.5vh 5vw !important;
+        .body-main-content .container-form{
+            padding: 21px 16px 18px 16px;
+            .text-danger {
+                padding-top: 5px;
+            }            
+        }
+        .body-main-content .container-info-body{
+            padding: 21px 14px 16px 14px;
+        }
+        .body-main-content form{
+           width: 100%;         
+        }
+        .cont-button{
+            width: 100%;
+            justify-content: end;
+            padding: 0px 14px 16px 14px;
+            button{
+                width: 90%;
+            }
+        }
+    }
+
+    div.container{
+        max-width: 950px;
+    }
+    .header-main-content{
+        padding: 0 !important;
+        border-radius: 27px 27px 0 0 !important;
+        position: relative;
+        border: none !important;
+        margin: 0;
+        background-color: #ffc800 !important;
+        div.container{
+            padding: 10px 5px;
+        }
+        h3{
+            font-size: 30px !important;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
+}
+section:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 31px;
+    background-image: linear-gradient(90deg, #fa783c 0%, #ffc800 100%) !important;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group{
+    width: 100%;
+}
+
+.content-options{
+    width: 100%;
+    padding: 21px 16px 18px 16px;
+}
+
+.footer{
+    background-color: #000 !important;
+    text-align: center;
+    margin-top: 60px;
+    .container-text-footer{
+        padding: 10px 40px;
+    }
+    .text-footer {        
+        color: #fff !important;
+        font-weight: bold;
+    }
+}

@@ -15,6 +15,7 @@ import { TermsAndConditionComponent } from './terms-and-condition/terms-and-cond
 import { HeaderComponent } from './header/header.component';
 import {MatChipsModule} from '@angular/material/chips';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { ServiceAddressComponent } from './service-address/service-address.component';
 
 
 
@@ -31,6 +32,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     SideMenuComponent,
     TermsAndConditionComponent,
     HeaderComponent,
+    ServiceAddressComponent,
     
   ],
   imports: [

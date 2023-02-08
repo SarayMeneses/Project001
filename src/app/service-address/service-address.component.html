@@ -1,92 +1,96 @@
 <app-header></app-header>
-<section>
-    <div class="main-content">
-        <div class="d-flex header-main-content">
-            <div class="container">
-                <h3 class="text-white text-uppercase">Service Address</h3>
+<div class="flex-center" >
+    <img src="assets/--.PNG" class="brigh-line" alt=""> -->
+    <section style="max-width: 1000px;">
+        <div class="main-content" >
+            <div class="d-flex header-main-content">
+                <div class="container">
+                    <h3 class="text-white text-uppercase">Service Address</h3>
+                </div>
             </div>
-        </div>
-        <div class="d-flex body-main-content">
-            <div class="container-info-body">
-                <h5 class="d-none">
-                    Location                    
-                </h5>
-                <span style="color: black">
-                    Please enter the address where you would like to order service.
-                </span>
-                <br>
-                <span class="text-danger text-xsmall">
-                    * (Asterisk indicates required field)                    
-                </span>
-            </div>
-            <form>
-                <div class="container container-form">
-                   <div class="d-flex" style="color: black">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="streetAddress">* Street Address:</label>
-                                <input class="order-section" placeholder="123 Main St">
+            <div class="d-flex body-main-content" >
+                <div class="container-info-body">
+                    <h5 class="d-none">
+                        Location                    
+                    </h5>
+                    <span style="color: black">
+                        Please enter the address where you would like to order service.
+                    </span>
+                    <br>
+                    <span class="text-danger text-xsmall">
+                        * (Asterisk indicates required field)                    
+                    </span>
+                </div>
+                <form>
+                    <div class="container container-form">
+                       <div class="d-flex" style="color: black">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="streetAddress">* Street Address:</label>
+                                    <input class="order-section" placeholder="123 Main St">
+                                </div>                            
+                                <div class="form-group">
+                                    <label for="streetAddress">Apt / Suite Number:</label>
+                                    <input class="order-section" placeholder="101">
+                                </div>
                             </div>                            
-                            <div class="form-group">
-                                <label for="streetAddress">Apt / Suite Number:</label>
-                                <input class="order-section" placeholder="101">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="streetAddress">* City:</label>
+                                    <input class="order-section" placeholder="New York">
+                                </div>
+                                <div class="form-group resize-zip">
+                                    <label for="streetAddress">* Zip Code:</label>
+                                    <input class="order-section" placeholder="12345">
+                                </div> 
+                                <div class="form-group resize-state">
+                                    <label for="streetAddress">State:</label>
+                                    <select class="order-section">
+                                        <option value selected="selected">Choose a State</option>
+                                        <option value="al">Alabama</option>
+                                        <option value="alas">Alaska</option>
+                                        <option value="ar">Arizona</option>
+                                    </select>
+                                </div>                             
                             </div>
-                        </div>                            
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="streetAddress">* City:</label>
-                                <input class="order-section" placeholder="New York">
-                            </div>
-                            <div class="form-group resize-zip">
-                                <label for="streetAddress">* Zip Code:</label>
-                                <input class="order-section" placeholder="12345">
-                            </div> 
-                            <div class="form-group resize-state">
-                                <label for="streetAddress">State:</label>
-                                <select class="order-section">
-                                    <option value selected="selected">Choose a State</option>
-                                    <option value="al">Alabama</option>
-                                    <option value="alas">Alaska</option>
-                                    <option value="ar">Arizona</option>
-                                </select>
-                            </div>                             
-                        </div>
-                   </div> 
-                </div>
-                <div class="d-flex cont-button">
-                    <button type="button" class="btn">
-                      Find Plans  
-                    </button>
-                </div>
-                <br>
-                <div class="form-row">
-                    <div class="d-flex justify-content-start content-options">
-                        <div class="form-group">
-                            <label class="text-bs-grey">
-                                <strong>TEST QUALIFY</strong>
-                            </label>
-                            <select class="form-control">
-                                <option value selected="selected">Select a Test Case</option>
-                                <option value="al">px</option>
-                                <option value="alas">px extra products</option>
-                                <option value="ar">px quantum</option>
-                            </select>                            
-                        </div>
+                       </div> 
                     </div>
-                </div> 
-            </form>
-        </div>
-             
-    </div>
-    <div class="footer">
-        <div class="container">
-            <div class="d-flex container-text-footer">
-                <p class="text-footer" style= "z-index:2">
-                    All calls with buybrightspeed may be monitored and recorded for quality
-                    assurance and training purposes.
-                </p>
+                    <div class="d-flex cont-button">
+                        <button type="button" class="btn">
+                          Find Plans  
+                        </button>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="d-flex justify-content-start content-options">
+                            <div class="form-group">
+                                <label class="text-bs-grey">
+                                    <strong>TEST QUALIFY</strong>
+                                </label>
+                                <select class="form-control">
+                                    <option value selected="selected">Select a Test Case</option>
+                                    <option value="al">px</option>
+                                    <option value="alas">px extra products</option>
+                                    <option value="ar">px quantum</option>
+                                </select>                            
+                            </div>
+                        </div>
+                    </div> 
+                </form>
             </div>
+                 
         </div>
+       
+    </section>
+</div>
 
-    </div>      
-</section>
+<div class="footer">
+    <div class="container">
+        <div class="d-flex container-text-footer">
+            <p class="text-footer" style= "z-index:2">
+                All calls with buybrightspeed may be monitored and recorded for quality
+                assurance and training purposes.
+            </p>
+        </div>
+    </div>
+</div>  

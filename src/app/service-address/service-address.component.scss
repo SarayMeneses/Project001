@@ -1,52 +1,63 @@
 //@import "stylings/variables";
-*{
+* {
     font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif !important;
-    line-height: 1.5
+    line-height: 1.5;
 }
-section{
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brigh-line {
+    cursor: auto;
+    height: 38px;
+    width: 100%;
+    margin-top: 111px;
+}
+section {
     position: absolute;
     top: 14%;
-    .main-content{
+    .main-content {
         background-color: #ececec !important;
         border-radius: 27px;
         box-shadow: 3px 5px 10px #d5d5d5 !important;
         margin: 0.5vh 5vw !important;
-        .body-main-content .container-form{
+        .body-main-content .container-form {
             padding: 21px 16px 18px 16px;
             .text-danger {
                 padding-top: 5px;
-            }            
+            }
         }
-        .body-main-content .container-info-body{
+        .body-main-content .container-info-body {
             padding: 30px 14px 16px 30px;
         }
-        .body-main-content form{
-           width: 100%;         
+        .body-main-content form {
+            width: 100%;
         }
-        .cont-button{
+        .cont-button {
             width: 100%;
             justify-content: end;
             padding: 0px 14px 16px 14px;
-            button{
+            button {
                 width: 90%;
             }
         }
     }
 
-    div.container{
+    div.container {
         // max-width: 950px;
     }
-    .header-main-content{
+    .header-main-content {
         padding: 0 !important;
         border-radius: 27px 27px 0 0 !important;
         position: relative;
         border: none !important;
         margin: 0;
         background-color: #ffc800 !important;
-        div.container{
+        div.container {
             padding: 10px 5px;
         }
-        h3{
+        h3 {
             font-size: 30px !important;
             margin-top: 0;
             margin-bottom: 0;
@@ -57,9 +68,9 @@ section{
 section:before {
     content: " ";
     display: block;
-    width: 100%;
+    width: 100vw;
     height: 31px;
-    background-image: linear-gradient(90deg, #fa783c 0%, #ffc800 100%) !important;
+    // background-image: linear-gradient(90deg, #fa783c 0%, #ffc800 100%) !important;
 }
 
 .form-row {
@@ -74,120 +85,125 @@ label {
     margin-bottom: 0.5rem;
 }
 
-.form-group{
+.form-group {
     width: 100%;
 }
 
-.content-options{
+.content-options {
     width: 100%;
     padding: 21px 16px 18px 16px;
 }
 
-.footer{
+.footer {
     background-color: #000 !important;
     text-align: center;
     margin-top: 60px;
-    .container-text-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    .container-text-footer {
         padding: 10px 40px;
     }
-    .text-footer {        
+    .text-footer {
         color: #fff !important;
         font-weight: bold;
     }
 }
 
-@media only screen and (min-width: 768px){
-    section{
-        .main-content{
-            margin: 10.5vh 1vw 0 1vw !important;
+@media only screen and (min-width: 768px) {
+    .brigh-line {
+        margin-top: 129px;
+    }
+    section {
+        .main-content {
+            margin: 2.5vh 1vw 0 1vw !important;
             position: relative;
-            .header-main-content{
-                h3{
-                  text-align: left;
-                  padding-left: 25px;
-                  padding-right: 25px;
-                  font-size: 38px;
-              }
-          }
+            .header-main-content {
+                h3 {
+                    text-align: left;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    font-size: 38px;
+                }
+            }
 
-          .body-main-content .container-info-body{
+            .body-main-content .container-info-body {
                 width: 100%;
-          }
+            }
 
-          .cont-button{
-            padding: 0px 28px 16px 14px;              
-                button{
+            .cont-button {
+                padding: 0px 28px 16px 14px;
+                button {
                     width: 25%;
                 }
-          }
+            }
         }
     }
 
-    .footer{       
-        .container-text-footer{
-            justify-content: center;            
+    .footer {
+        .container-text-footer {
+            justify-content: center;
         }
-        margin-top: -55px;       
+        margin-top: -55px;
     }
 
-    .form-group{
+    .form-group {
         max-width: 40%;
-        padding: 0 18px;        
+        padding: 0 18px;
     }
 
-    .resize-zip{
-        max-width: 16.66667%;;
+    .resize-zip {
+        max-width: 16.66667%;
     }
 
-    .resize-state{
+    .resize-state {
         max-width: 33.33333%;
     }
-    .form-row{
+    .form-row {
         padding-bottom: 10px;
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){
- 
-    .content-options{
-        width: 50%;
-    }
+// @media only screen and (min-width: 576px) and (max-width: 767px){
 
-}
+//     .content-options{
+//         width: 50%;
+//     }
 
-@media only screen and (min-width: 768px) and (max-width: 992px){
-    section{
-        top: 17%; 
-        main-content{
-            margin: 10.5vh 2vw 0 2vw !important;
-        }      
-    }
-}
+// }
 
-@media only screen and (min-width: 993px) and (max-width: 1199px){
-    section{
-        top: 17%;
-        .main-content{
-            margin: 10.5vh 4vw 0 4vw !important;          
-        }
-    }
-}
+// @media only screen and (min-width: 768px) and (max-width: 992px){
+//     section{
+//         top: 17%;
+//         main-content{
+//             margin: 10.5vh 2vw 0 2vw !important;
+//         }
+//     }
+// }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px){
-    section{
-        top: 17%;
-        .main-content{
-            margin: 10.5vh 8vw 0 8vw !important;          
-        }
-    }
-}
+// @media only screen and (min-width: 993px) and (max-width: 1199px){
+//     section{
+//         top: 17%;
+//         .main-content{
+//             margin: 10.5vh 4vw 0 4vw !important;
+//         }
+//     }
+// }
 
-@media only screen and (min-width: 1400px){
-    section{
-        top: 17%;
-        .main-content{
-            margin: 10.5vh 9vw 0 9vw !important;          
-        }
-    }
-}
+// @media only screen and (min-width: 1200px) and (max-width: 1399px){
+//     section{
+//         top: 17%;
+//         .main-content{
+//             margin: 10.5vh 8vw 0 8vw !important;
+//         }
+//     }
+// }
 
+// @media only screen and (min-width: 1400px){
+//     section{
+//         top: 17%;
+//         .main-content{
+//             margin: 10.5vh 9vw 0 9vw !important;
+//         }
+//     }
+// }

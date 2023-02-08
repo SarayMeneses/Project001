@@ -4,7 +4,8 @@
     line-height: 1.5
 }
 section{
-    margin-top: 80px !important;
+    position: absolute;
+    top: 14%;
     .main-content{
         background-color: #ececec !important;
         border-radius: 27px;
@@ -17,7 +18,7 @@ section{
             }            
         }
         .body-main-content .container-info-body{
-            padding: 21px 14px 16px 14px;
+            padding: 30px 14px 16px 30px;
         }
         .body-main-content form{
            width: 100%;         
@@ -33,7 +34,7 @@ section{
     }
 
     div.container{
-        max-width: 950px;
+        // max-width: 950px;
     }
     .header-main-content{
         padding: 0 !important;
@@ -94,3 +95,99 @@ label {
         font-weight: bold;
     }
 }
+
+@media only screen and (min-width: 768px){
+    section{
+        .main-content{
+            margin: 10.5vh 1vw 0 1vw !important;
+            position: relative;
+            .header-main-content{
+                h3{
+                  text-align: left;
+                  padding-left: 25px;
+                  padding-right: 25px;
+                  font-size: 38px;
+              }
+          }
+
+          .body-main-content .container-info-body{
+                width: 100%;
+          }
+
+          .cont-button{
+            padding: 0px 28px 16px 14px;              
+                button{
+                    width: 25%;
+                }
+          }
+        }
+    }
+
+    .footer{       
+        .container-text-footer{
+            justify-content: center;            
+        }
+        margin-top: -55px;       
+    }
+
+    .form-group{
+        max-width: 40%;
+        padding: 0 18px;        
+    }
+
+    .resize-zip{
+        max-width: 16.66667%;;
+    }
+
+    .resize-state{
+        max-width: 33.33333%;
+    }
+    .form-row{
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+ 
+    .content-options{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    section{
+        top: 17%; 
+        main-content{
+            margin: 10.5vh 2vw 0 2vw !important;
+        }      
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1199px){
+    section{
+        top: 17%;
+        .main-content{
+            margin: 10.5vh 4vw 0 4vw !important;          
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+    section{
+        top: 17%;
+        .main-content{
+            margin: 10.5vh 8vw 0 8vw !important;          
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    section{
+        top: 17%;
+        .main-content{
+            margin: 10.5vh 9vw 0 9vw !important;          
+        }
+    }
+}
+
